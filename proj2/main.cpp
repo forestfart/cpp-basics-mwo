@@ -9,6 +9,9 @@ void swap2Ints(int *pA, int *pB)
     *pB = wsk;
 } // na kartkowce bedzie trzeba opisac co bedzie wynikiem dzialania roznych wersji
   // prawidłowy wynik
+  // double *d[3] - tablica wskaznikow
+  // double *(*p4)[3] - wskaznik do tablicy 3 elementowej zwracający wskaznik tej tablicy - sprawdzić to
+
 int main()
 {
     int x = 1, y = 2;
