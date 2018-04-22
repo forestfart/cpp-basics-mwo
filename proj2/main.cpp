@@ -8,7 +8,7 @@ void swap2Ints(int *pA, int *pB)
     *pA = *pB;
     *pB = wsk;
 } // na kartkowce bedzie trzeba opisac co bedzie wynikiem dzialania roznych wersji
-
+  // prawidłowy wynik
 int main()
 {
     int x = 1, y = 2;
