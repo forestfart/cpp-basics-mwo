@@ -22,6 +22,10 @@ void swap2Ints(int *pA, int *pB)
   // Java: C c1 = new C(); c1.m1();
   // C++:  C *pC = new C; (*pC).m1(); pC->m1();
 
+  // sprawdzic dockera!
+
+  // made with QT Creator
+
 int main()
 {
     int x = 1, y = 2;
