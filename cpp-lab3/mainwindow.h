@@ -20,8 +20,19 @@ private slots:
 
     void on_actionCut_triggered();
 
+    void on_actionPaste_triggered();
+
+    void on_actionUndo_triggered();
+
+    void on_actionRedo_triggered();
+
+    void on_actionNew_triggered();
+
+    void on_actionSave_As_triggered();
+
 private:
     Ui::MainWindow *ui;
+    void saveToFile(QString filePath);
 };
 
 #endif // MAINWINDOW_H
