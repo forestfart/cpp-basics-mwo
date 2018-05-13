@@ -5,10 +5,10 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
-    ui->setupUi(this);
+    ui->setupUi(this); //wywolanie funkcji setupUI
 }
 
 MainWindow::~MainWindow()
 {
-    delete ui;
+    delete ui; //zwolnienie pamieci
 }
