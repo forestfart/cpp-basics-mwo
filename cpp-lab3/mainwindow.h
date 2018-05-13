@@ -15,6 +15,11 @@ public:
     explicit MainWindow(QWidget *parent = 0); //konstruktor
     ~MainWindow(); //destruktor
 
+private slots:
+    void on_actionCopy_triggered();
+
+    void on_actionCut_triggered();
+
 private:
     Ui::MainWindow *ui;
 };
